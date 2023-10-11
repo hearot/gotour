@@ -1,24 +1,24 @@
-Data Structures
-This section provides data struct examples.
+Strutture dati
+Questa sezione fornisce degli esempi di strutture dati.
 
 * Hash Map
 
-- [[https://www.ardanlabs.com/training/individual-on-demand/ultimate-go-bundle/][Watch The Video]]
-- Need Financial Assistance, Use Our [[https://www.ardanlabs.com/scholarship/][Scholarship Form]]
+- [[https://www.ardanlabs.com/training/individual-on-demand/ultimate-go-bundle/][Guarda Video]]
+- Se necessiti di assistenza finanziaria, utilizza il nostro [[https://www.ardanlabs.com/scholarship/][form per richiedere una borsa di studio]]
 
-This sample program implements a basic hash table.
+Questo programma di esempio implementa una semplice tavola hash.
 
-- hashKey(key) returns a number between 0 to len(buckets)-1
+- hashKey(key) restituisce un numero da 0 a len(buckets)-1
 
-- We use a slice of entries as a bucket to handles cases where two or more keys
-  are hashed to the same bucket
+- Utilizziamo uno slice di entrate come un bucket per gestire
+  i casi in cui due o più chiavi vengono mappate tramite hashing allo stesso bucket.
 
-- See more at [[https://en.wikipedia.org/wiki/Hash_table][https://en.wikipedia.org/wiki/Hash_table]]
+- Trovi di più su [[https://en.wikipedia.org/wiki/Hash_table][https://en.wikipedia.org/wiki/Hash_table]]
 
-*Diagram*
+*Diagramma*
 
-    With a hash map, data is indexed by bucket and then position
-    inside the bucket.
+    In una mappa hash, i valori sono indicizzati dal backet e si
+    posizionano poi al suo interno.
 
     hashKey(key) ──────────────┐
                                │
@@ -42,16 +42,17 @@ This sample program implements a basic hash table.
 
 .play algorithms/data/hash_map.go
 
-* Linked List
+* Lista concatenata
 
-This sample program implements a basic double linked list.
+Questo programma di esempio implementa una semplice lista concatenata doppia.
 
-- See more at [[https://en.wikipedia.org/wiki/Linked_list][https://en.wikipedia.org/wiki/Linked_list]]
+- Trovi di più su [[https://en.wikipedia.org/wiki/Linked_list][https://en.wikipedia.org/wiki/Linked_list]]
 
-*Diagram*
+*Diagramma*
 
-    With a linked list, values are tied together in different
-    order through the use of pointers.
+    In una lista concatenata, i valori sono concatenati
+    in un ordine dato dal modo in cui si impiegano i
+    puntatori.
 
     ┌─────┐     ┌─────┐     ┌─────┐     ┌─────┐     ┌─────┐
     │ Val │ ◁─▷ │ Val │ ◁─▷ │ Val │ ◁─▷ │ Val │ ◁─▷ │ Val │
@@ -69,11 +70,11 @@ This sample program implements a basic double linked list.
 
 * Queue
 
-This sample program implements a basic circular queue.
+Questo programma di esempio implementare una semplice queue circolare.
 
-- See more at [[https://en.wikipedia.org/wiki/Queue_(abstract_data_type)][https://en.wikipedia.org/wiki/Queue_(abstract_data_type)]]
+- Trovi di più su [[https://en.wikipedia.org/wiki/Queue_(abstract_data_type)][https://en.wikipedia.org/wiki/Queue_(abstract_data_type)]]
 
-*Diagram*
+*Diagramma*
 
     With a queue, the first value in is the first value out.
 
