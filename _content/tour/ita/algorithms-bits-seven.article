@@ -1,12 +1,12 @@
-Bit Operations
-This section provides examples that perform bit operations.
+Operazioni sui bit
+Questa sezione fornisce degli esempi che effettuano delle operazioni sui bit.
 
-* Is Even Or Odd
+* Pari o dispari
 
-- [[https://www.ardanlabs.com/training/individual-on-demand/ultimate-go-bundle/][Watch The Video]]
-- Need Financial Assistance, Use Our [[https://www.ardanlabs.com/scholarship/][Scholarship Form]]
+- [[https://www.ardanlabs.com/training/individual-on-demand/ultimate-go-bundle/][Guarda Video]]
+- Se necessiti di assistenza finanziaria, utilizza il nostro [[https://www.ardanlabs.com/scholarship/][form per richiedere una borsa di studio]]
 
-This sample program shows you how to check if an integer is even or odd
-using bit manipulation.
+Questo programma di esempi mostra come controllare se un intero è pari o
+dispari utilizzando la manipolazione dei bit.
 
 .play algorithms/bits/iseven.go
